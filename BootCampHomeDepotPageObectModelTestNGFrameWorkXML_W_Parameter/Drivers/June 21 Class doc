@@ -1,0 +1,51 @@
+package piit.MonkeyTest;
+
+import org.openqa.selenium.WebDriver;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class SettingChormeLearning {
+		
+	public static WebDriver driver;
+	public static void main(String[] args) throws InterruptedException   {
+
+		// How to open Chrome
+		
+		System.setProperty("webdriver.chrome.driver", "/Volumes/George/Selenium Browser Drivers/chromedriver");
+		driver = new ChromeDriver();
+		
+	
+		driver.navigate().to("https://www.google.com");
+		Thread.sleep(1000); // how to add 6 sec gap to go another website
+		//		or
+		
+		driver.get("https://www.amazon.com");
+		Thread.sleep(6000); // how to add 6 sec gap to go another website
+		driver.navigate().refresh(); // how to refresh
+		driver.manage ().window().maximize(); //how to maximize
+		driver.navigate().back();		// going back
+		driver.navigate().forward();	// how to move forward
+		
+		
+		
+		
+		System.setProperty("webdriver.gecko.driver", "/Volumes/George/Selenium Browser Drivers/geckodriver");
+		driver = new FirefoxDriver();
+		driver.navigate().to("https://www.google.com");
+		Thread.sleep(1000); // how to add 6 sec gap to go another website
+		//		or
+		driver.get("https://www.amazon.com");
+		Thread.sleep(6000); // how to add 6 sec gap to go another website
+		driver.navigate().refresh(); // how to refresh
+		driver.manage ().window().maximize(); //how to maximize
+		driver.navigate().back();		// going back
+		driver.navigate().forward();	// how to move forward
+		
+		
+	}
+	
+	
+
+}

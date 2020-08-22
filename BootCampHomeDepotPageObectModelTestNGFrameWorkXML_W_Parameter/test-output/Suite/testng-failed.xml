@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test0001(failed)">
+    <classes>
+      <class name="runner.HomeDepotTest">
+        <methods>
+          <include name="browser"/>
+          <include name="Verification"/>
+          <include name="CreateTheAccount"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- runner.HomeDepotTest -->
+    </classes>
+  </test> <!-- Test0001(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Adhoc" duration-ms="24788" started-at="2020-08-21T17:15:52 PDT" finished-at="2020-08-21T17:16:16 PDT">
+    <groups>
+    </groups>
+    <test name="HomeDepotTest" duration-ms="24788" started-at="2020-08-21T17:15:52 PDT" finished-at="2020-08-21T17:16:16 PDT">
+      <class name="runner.HomeDepotTest">
+        <test-method status="PASS" signature="browser(java.lang.String, java.lang.String)[pri:0, instance:runner.HomeDepotTest@bd8db5a]" name="browser" is-config="true" duration-ms="10504" started-at="2020-08-21T17:15:52 PDT" finished-at="2020-08-21T17:16:02 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.homedepot.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="CreateTheAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:runner.HomeDepotTest@bd8db5a]" name="CreateTheAccount" duration-ms="3693" started-at="2020-08-21T17:16:02 PDT" finished-at="2020-08-21T17:16:06 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abulmaal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Fgosds34232@lmaal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[87687]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7745459854]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateTheAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:runner.HomeDepotTest@bd8db5a]" name="tearDown" is-config="true" duration-ms="10565" started-at="2020-08-21T17:16:06 PDT" finished-at="2020-08-21T17:16:16 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- runner.HomeDepotTest -->
+    </test> <!-- HomeDepotTest -->
+  </suite> <!-- Adhoc -->
+</testng-results>

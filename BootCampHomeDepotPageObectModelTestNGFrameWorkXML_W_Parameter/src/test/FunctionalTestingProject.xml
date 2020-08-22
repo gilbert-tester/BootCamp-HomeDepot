@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adhoc">
+
+	<listeners>
+		<listener class-name="listeners.Listenerui" />
+	</listeners>
+	<test name="HomeDepotTest">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="url" value="https://www.homedepot.com/"></parameter>
+		<parameter name="email" value="abulmaal@gmail.com"></parameter>
+		<parameter name="password" value="Fgosds34232@lmaal"></parameter>
+		<parameter name="zip" value="87687"></parameter>
+		<parameter name="phone" value="7745459854"></parameter>
+
+		<classes>
+			<class name="runner.HomeDepotTest"></class>
+		</classes>
+	</test>
+	<!-- <test name="Home.FireFox"> <parameter name="browser" value="firefox"></parameter> 
+		<classes> <class name="piit.MonkeyTest.Assertions"></class> </classes> </test> -->
+</suite>
+
+<!-- -->
